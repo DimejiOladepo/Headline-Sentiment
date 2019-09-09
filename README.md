@@ -11,8 +11,8 @@ Gensim was used create word embeddings for the subsequent word2vec model with le
 were imported and mapped to each word in the vocabulary and a matrix of words was created. This matrix was used as an embedding matrix for the 
 neural network created. This model did better than the first but there was still room for improvement.
 
-The third was implemented using TF-IDF using n-grams approach. 4 classifiers were also used and compared. OVR classifier did better here with
-an cross-validation and test accuracy better than the Word2Vec.
+The third was implemented using TF-IDF using n-grams approach. 4 classifiers were also used and compared. OVR classifier did better with
+a cross-validation and test accuracy better than the Word2Vec.
 
 The last was implemented also using TF-IDF but using max_features approach and this did better than the others with a test accuracy of about
 53% using naive bayes.
