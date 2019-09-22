@@ -1,8 +1,8 @@
-# Text-Classification-using-Embeddings-and-TF-IDF
+# News-Headiline-Classification-using-Embeddings-and-TF-IDF
 
 Four models were developed to classify a corpus of news headlines with labels attached as either "Positive", "Negative", "Even". 
 
-The text corpus was pre-processed and cleaned to remove special characters, double spaces, single characters using regular expressions.
+The news corpus was pre-processed and cleaned to remove special characters, double spaces, single characters using regular expressions.
 
 In the first model, embeddings were learned from the corpus with each sentence tokenized, sequenced and used as a hidden layer for a neural network
 to determine the cross-validation and test scores.
